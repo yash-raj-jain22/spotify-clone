@@ -1,0 +1,1 @@
+console.log("Hello, lets get started with js");

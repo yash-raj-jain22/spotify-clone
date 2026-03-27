@@ -9,8 +9,10 @@
 }
 
 body {
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
+    /* max-height: 100vh;
+    overflow: hidden; */
 }
 
 .left {
@@ -22,8 +24,10 @@ body {
 
 .right {
     width: 75vw;
-    border: 2px solid blue;
-    margin: 3px;
+    /* padding: 10px; */
+    margin: 17px 0px;
+
+
 }
 
 .home ul li {
@@ -35,10 +39,105 @@ body {
     font-weight: 500;
 }
 
-.playlist {
+.lib-head {
     display: flex;
     gap: 15px;
     list-style: none;
     padding-top: 14px;
     font-weight: 500;
+}
+
+.footer,
+.footer a {
+    display: flex;
+    gap: 13px;
+    padding-top: 14px;
+    font-size: 10px;
+    color: #b3b3b3;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px 0;
+}
+
+
+
+.library {
+    min-height: 80vh;
+    position: relative;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.spotify-playlists {
+    padding: 16px;
+}
+
+.card-container {
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+.card {
+    width: 200px;
+    /* border: 2px solid #ffffff; */
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card>* {
+    padding: 10px 0 0 0;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.play svg {
+    background-color: #1fdf64;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: #000000;
+
+
+    /* box-shadow: 0 4px 12px rgba(29, 185, 84, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; */
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+    opacity: 0;
+    transition: all 1s ease-out;
 }
