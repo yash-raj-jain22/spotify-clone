@@ -20,7 +20,7 @@ HTML, CSS, and JavaScript as a learning project.
 - Album art display
 
 ## 🚀 Live Demo
-[🔗 Click here to view](https://yashrjain22.github.io/spotify-clone/)
+[🔗 Click here to view](https://yash-raj-jain22.github.io/spotify-clone/)
 
 ## 📌 How to Run Locally
 1. Clone this repo: git clone https://github.com/yashrjain22/spotify-clone.git
@@ -39,8 +39,8 @@ HTML, CSS, and JavaScript as a learning project.
 ## 👨‍💻 Author
 **Yash R Jain**
 - 🎓 B.Tech CSE, 1st Year @ MIET Meerut
-- 🔗 [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN-ID)
-- 💻 [GitHub](https://github.com/yashrjain22)
+- 🔗 [LinkedIn](https://linkedin.com/in/yash-raj-jain22)
+- 💻 [GitHub](https://github.com/yash-raj-jain22)
 
 ## ⭐ Show Your Support
 Give a ⭐ if you liked this project!
