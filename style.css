@@ -267,10 +267,11 @@ body {
     border-radius: 50px;
     position: relative;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 .overbar {
-    width: 98%;
+    width: 46%;
     height: 100%;
     background-color: #ff0505;
     border-radius: 50px;
@@ -278,7 +279,7 @@ body {
 }
 
 .circle {
-    left: 0;
+    left: 46%;
     width: 15px;
     height: 15px;
     background-color: #ff0505;
@@ -286,4 +287,5 @@ body {
     position: absolute;
     top: -5px;
     transition: left 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
