@@ -271,7 +271,7 @@ body {
 }
 
 .overbar {
-    width: 46%;
+    width: 0px;
     height: 100%;
     background-color: #ff0505;
     border-radius: 50px;
@@ -280,7 +280,7 @@ body {
 }
 
 .circle {
-    left: 46%;
+    left: 0%;
     width: 15px;
     height: 15px;
     background-color: #ff0505;

@@ -98,6 +98,9 @@ async function main() {
     current_song.addEventListener("timeupdate", () => {
         // console.log(current_song.currentTime, current_song.duration);
         document.querySelector(".song-time").innerHTML = secondsToMinSec(Math.floor(current_song.currentTime)) + " / " + secondsToMinSec(Math.floor(current_song.duration));
+        document.querySelector(".circle").style.left = (current_song.currentTime / current_song.duration) * 100 + "%";
+        document.querySelector(".overbar").style.width = (current_song.currentTime / current_song.duration) * 100 + "%";
+
 
     })
 }
