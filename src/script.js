@@ -1,6 +1,8 @@
 console.log("Hello, lets get started with js");
 let current_song = new Audio();
 const play = document.getElementById("play");
+const previous = document.getElementById("prev");
+const next = document.getElementById("next");
 
 function secondsToMinSec(seconds) {
     const minutes = Math.floor(seconds / 60);
@@ -117,6 +119,13 @@ async function main() {
     document.querySelector(".hamburger-close").addEventListener("click", () => {
         document.querySelector(".left").classList.toggle("left-active");
         document.querySelector(".right").classList.toggle("black-cover");
+    })
+
+    previous.addEventListener("click", () => {
+        console.log("Previous song");
+    })
+    next.addEventListener("click", () => {
+        console.log("Next song");
     })
 
 
